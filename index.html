@@ -22,7 +22,7 @@
     <br />
     <a
       class="bookmarklet"
-      href="javascript:location.href=`https://news.kiwistand.com/submit?title=${document.title}&url=${location.href}&ref=bookmarklet`"
+      href="javascript:location.href=`https://news.kiwistand.com/submit?title=${encodeURIComponent(document.title)}&url=${encodeURIComponent(location.href)}&ref=bookmarklet`"
       >Kiwi Bookmarklet</a
     >
 
